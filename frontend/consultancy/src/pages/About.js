@@ -70,7 +70,7 @@ const About = () => {
       {/* Hero Section */}
       <div className="bg-gradient-to-r from-blue-200 to-blue-600 text-white pt-32 pb-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-5xl font-bold mb-6">About AVS Consultancy</h1>
+          <h1 className="text-5xl font-bold mb-6">About AVS Jobs&EducationalConsultancy</h1>
           <p className="text-xl max-w-3xl mx-auto leading-relaxed">
             Transforming careers and education through personalized guidance and 
             strategic partnerships since 2023.
@@ -138,8 +138,8 @@ const About = () => {
                     </p>
                   </div>
                   
-                  <div className="bg-purple-50 rounded-xl p-6">
-                    <h3 className="text-2xl font-semibold mb-4 text-purple-800">Our Vision</h3>
+                  <div className="bg-gradient-to-r from-blue-200 to-blue-600 rounded-xl p-6">
+                    <h3 className="text-2xl font-semibold mb-4 text-blue-800">Our Vision</h3>
                     <p className="text-gray-700 text-lg leading-relaxed mb-4">
                       To become the most trusted partner in career development and educational 
                       consulting, recognized for our integrity, innovation, and life-changing results.
@@ -200,8 +200,8 @@ const About = () => {
                   ))}
                 </div>
 
-                <div className="bg-green-50 rounded-xl p-8 mt-8">
-                  <h3 className="text-2xl font-semibold mb-6 text-green-800 text-center">Our Commitment</h3>
+                <div className="bg-gradient-to-r from-blue-200 to-blue-600 rounded-xl p-8 mt-8">
+                  <h3 className="text-2xl font-semibold mb-6 text-gray-800 text-center">Our Commitment</h3>
                   <div className="grid md:grid-cols-2 gap-4">
                     {[
                       'Personalized approach for every client',
@@ -212,8 +212,8 @@ const About = () => {
                       'Ethical practices always'
                     ].map((item, index) => (
                       <div key={index} className="flex items-center">
-                        <CheckCircle className="w-5 h-5 text-green-600 mr-3" />
-                        <span className="text-gray-700">{item}</span>
+                        <CheckCircle className="w-5 h-5 text-green-700 mr-3" />
+                        <span className="text-gray-900">{item}</span>
                       </div>
                     ))}
                   </div>
@@ -268,7 +268,7 @@ const About = () => {
             <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">What We Do</h2>
             
             <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-gradient-to-br from-blue-500 to-blue-600 text-white rounded-xl p-8">
+              <div className="bg-gradient-to-r from-blue-200 to-blue-600 text-black rounded-xl p-8">
                 <h3 className="text-2xl font-semibold mb-4">Career Services</h3>
                 <ul className="space-y-3">
                   {[
@@ -280,14 +280,14 @@ const About = () => {
                     'LinkedIn profile enhancement'
                   ].map((service, index) => (
                     <li key={index} className="flex items-center">
-                      <CheckCircle className="w-5 h-5 text-green-300 mr-3" />
+                      <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
                       {service}
                     </li>
                   ))}
                 </ul>
               </div>
               
-              <div className="bg-gradient-to-br from-purple-500 to-purple-600 text-white rounded-xl p-8">
+              <div className="bg-gradient-to-r from-blue-200 to-blue-600 text-black rounded-xl p-8">
                 <h3 className="text-2xl font-semibold mb-4">Education Consulting</h3>
                 <ul className="space-y-3">
                   {[
@@ -299,7 +299,7 @@ const About = () => {
                     'Education pathway planning'
                   ].map((service, index) => (
                     <li key={index} className="flex items-center">
-                      <CheckCircle className="w-5 h-5 text-green-300 mr-3" />
+                      <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
                       {service}
                     </li>
                   ))}

@@ -298,9 +298,9 @@ const Header = () => {
               <img 
                 src={logo} 
                 alt="AVS Consultancy" 
-                className="h-8 w-8 sm:h-10 sm:w-10 object-contain"
+                className="h-10 w-8 sm:h-10 sm:w-16 object-contain"
               />                              
-              <span className="text-lg sm:text-xl md:text-2xl font-bold">AVSConsultancy</span>
+              <span className="text-lg sm:text-xl md:text-2xl font-bold">AVS Jobs&EducationalConsultancy</span>
             </Link>
             
             {/* Desktop Navigation */}

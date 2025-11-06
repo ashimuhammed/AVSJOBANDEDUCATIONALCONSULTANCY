@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">AVS Consultancy</h3>
+            <h3 className="text-lg font-bold mb-4">AVS Jobs&EducationalConsultancy</h3>
             <p className="text-gray-800">
               Your trusted partner for career growth and educational opportunities.
             </p>
@@ -17,10 +17,10 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
-              <li><Link to="/jobs" className="text-gray-800 hover:text-white">Find Jobs</Link></li>
-              <li><Link to="/all-courses" className="text-gray-800 hover:text-white">Education Programs</Link></li>
-              <li><Link to="/about" className="text-gray-800 hover:text-white">About Us</Link></li>
-              <li><Link to="/contact" className="text-gray-800 hover:text-white">Contact</Link></li>
+              <li><Link to="/jobs" className="text-gray-800 hover:text-blue-300">Find Jobs</Link></li>
+              <li><Link to="/all-courses" className="text-gray-800 hover:text-blue-400">AbroadCourses Programs</Link></li>
+              <li><Link to="/about" className="text-gray-800 hover:text-blue-500">About Us</Link></li>
+              <li><Link to="/contact" className="text-gray-800 hover:text-blue-600">Contact</Link></li>
             </ul>
           </div>
           
@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-6 text-center text-gray-800">
-          <p>&copy; 2024 AVS Consultancy. All rights reserved.</p>
+          <p>&copy; 2024 AVS Jobs&EducationalConsultancy. All rights reserved.</p>
         </div>
       </div>
     </footer>
